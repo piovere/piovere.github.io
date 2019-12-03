@@ -21,7 +21,7 @@ That said, I'm not sure about the advantages of polar coordinates. At the very l
 
 The second approach the author takes is more interesting to me. If the timeseries data are sampled from a markov process this seems like a good way to approximate that into an image-like input for a convolutional network. The author also claims that
 
-    By assigning the probability from the quantile at time step \(i\) to the quantile at time step \(j\) at each pixel \(M_{ij}\), the MTF \(M\) actually encodes the multi-span transition probabilities of the time series. \(M_{i,j\vert\verti-j\vert=k}\) denotes the transition probability between the points with time interval \(k\).
+> By assigning the probability from the quantile at time step \(i\) to the quantile at time step \(j\) at each pixel \(M_{ij}\), the MTF \(M\) actually encodes the multi-span transition probabilities of the time series. \(M_{i,j\vert\verti-j\vert=k}\) denotes the transition probability between the points with time interval \(k\).
 
 # Takeaways
 
