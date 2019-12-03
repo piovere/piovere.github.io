@@ -38,7 +38,8 @@ Mac Mini that currently handles anything I need to run at home over long
 stretches.
 
 [^1]: Go ahead and @ me, I need to learn this stuff.
-[^2]: I have actually been poking at PlaidML and that might help. I see about 
-5x speedup on their benchmark test, but I haven't put any of that into the 
-world yet to see if that matches real life. I'm also really looking forward 
-to them adding multiple GPU support, which should mean another speedup.
+[^2]: 
+    I have actually been poking at PlaidML and that might help. I see about 
+    5x speedup on their benchmark test, but I haven't put any of that into the 
+    world yet to see if that matches real life. I'm also really looking forward 
+    to them adding multiple GPU support, which should mean another speedup.
