@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Relating Neural Network Architectures to Physical Measurements"
+date: 2019-12-10
+---
+Neural network architectures viewed through the lens of measurement
+The process of conducting measurements to determine some underlying physical property. It is therefore the conversion from some real system into a new space of measured values. This conversion is typically destructive—as a rule there are properties of the system we do not wish to sample. For example, if we wish to learn the density of a piece of metal we would measure its weight and its displacement, but might not record information about its color.
+
+What follows next is the process of analysis. The information we wish to recover about the real world may not be directly measurable. We therefore apply our understanding of physical reality in general to the data we have collected. In the example above we divide the weight of the object by the local acceleration due to gravity in order to calculate its mass. This process may or may not be destructive. In the world of classical mechanics it typically is not; the relationship between dependent quantities is treated as deterministic—the statistical relationships between quantities are small enough to reasonably ignore. In systems which must be treated with quantum mechanics (e.g. measurements of radioactivity) we know that our measurements are samples from an underlying distribution. We may have some *a priori* understanding of our distribution (in the case of radioactive decay we know that the Poisson distribution applies), or we may have to take multiple measurements in order to approximate the true distribution of the data. This also applies to the (more common) processes of predictive machine learning/data science where there is some underlying relationship between data and the quantities we wish to predict. The relationship exists, but we don’t know what form it takes so we infer it from the data.
+
+Simulation could be viewed as the complement of analysis. Instead of transforming (processed/measured) data into the underlying values of interest we start with the information we want and attempt to reproduce the data that would result. The simulation (and representative process) could be either deterministic or probabilistic. In the latter case we would have to run even a perfect simulation a number of times (to reproduce the statistical distribution we would have measured) or run our simulation in such a way that we track the uncertainty from start to finish (increasing the number of parameters to keep track of since we statistical distributions may require more parameters to describe[^1]).
+
+
+
+[^1]: This depends on what you assume/know the distribution to be. The Gaussian (also known as the normal distribution or “bell curve”) distribution is defined by two parameters: the mean and the standard deviation. The Poisson distribution is defined by only one parameter (the mean).
