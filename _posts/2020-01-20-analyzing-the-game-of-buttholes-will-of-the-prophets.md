@@ -93,7 +93,7 @@ plt.show()
 ```
 
 
-![png](images/output_16_0.png)
+![png](images/2020-01-20/output_16_0.png)
 
 
 Some suspicious looking peaks there! Do these peaks correspond to special events?
