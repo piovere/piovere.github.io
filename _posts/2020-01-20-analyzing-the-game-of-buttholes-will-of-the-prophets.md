@@ -6,11 +6,11 @@ date: 2020-01-20
 
 I listen to a podcast on the [Maximum Fun](https://maximumfun.org) network called [The Greatest Generation](https://art19.com/shows/the-greatest-generation), a Star Trek podcast by two guys who are a little bit embarassed to have a Star Trek podcast. Every week they watch and review an episode of Star Trek: Deep Space Nine. They're professional filmmakers and hearing about this show through their eyes[^gaze] is an education in the craft of creating a TV show.
 
-![Game board](../_images/2020-01-20/game_board.png "The Game Board")
+![Game board](../images/2020-01-20/game_board.png "The Game Board"){:class="img-responsive"}
 
 Every episode they play a game that they call [*The Game of Buttholes: Will of the Prophets*](https://gagh.biz/game/). It's your basic Snakes and Ladders clone, but with consequences. Each square with a wormhole on it sends you back to the indicated square; each square with a picture triggers a special episode. Some are fairly benign ("Quark's Bar" just means they drink during the recording (err...more than they would otherwise?). Others are more intensive--square 56 means that one of the hosts must purchase a plane ticket and fly to the other's city for a live recording[^looking].
 
-![Special squares](../_images/2020-01-20/special_squares.png "Special squares")
+![Special squares](../images/2020-01-20/special_squares.png "Special squares"){:class="img-responsive"}
 
 Occasionally the hosts react to complaints that these special episodes aren't triggered more often; I read their position as the (emminently reasonable) "we're not your monkeys!" So I wanted to see if the game is tilted to produce more or fewer special/event squares than you would expect.
 
